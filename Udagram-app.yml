@@ -280,8 +280,7 @@ Resources:
           sudo systemctl enable httpd
           sudo chkconfig httpd on
           cd /var/www/html
-          sudo aws s3 cp s3://udagram-project/udacity.zip /var/www/html
-          sudo unzip -o udacity.zip
+          aws s3 cp s3://udagram-project/index.html .
           sudo systemctl restart httpd
       ImageId: ami-04823729c75214919
       IamInstanceProfile: !Ref ProfileWithRolesForOurApp
