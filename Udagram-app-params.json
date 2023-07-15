@@ -25,10 +25,10 @@
     },
     {
         "ParameterKey": "WebAppServersMinSize",
-        "ParameterValue": "3"
+        "ParameterValue": "4"
     },
     {
         "ParameterKey": "WebAppServersMaxSize",
-        "ParameterValue": "5"
+        "ParameterValue": "6"
     }
 ]
